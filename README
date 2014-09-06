@@ -1,0 +1,3 @@
+siphasm: gcc-optimized siphash implementation
+
+Godoc: http://godoc.org/github.com/dgryski/go-siphasm
