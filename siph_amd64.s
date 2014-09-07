@@ -1,6 +1,5 @@
 // func Hash(k0, k1 uint64, b []byte) uint64
 TEXT	·Hash(SB),4,$0-48
-	PUSHQ	BX
 	MOVQ	k0+0(FP),CX
 	MOVQ	$0X736F6D6570736575,R9
 	MOVQ	k1+8(FP),DI
@@ -194,6 +193,5 @@ afterSwitch:
 	RORQ	$0X20,CX
 	XORQ	DX,AX
 	XORQ	CX,AX
-	POPQ	BX
 	MOVQ	AX,ret+40(FP)
 	RET
