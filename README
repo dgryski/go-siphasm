@@ -1,3 +1,5 @@
 siphasm: gcc-optimized siphash implementation
 
+This code has been integrated into https://github.com/dchest/siphash .
+
 Godoc: http://godoc.org/github.com/dgryski/go-siphasm
